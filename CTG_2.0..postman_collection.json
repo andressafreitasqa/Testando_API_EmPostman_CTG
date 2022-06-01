@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "8b1b5aa5-07df-42ed-be48-f84b325a1107",
+		"name": "CTG_2.0.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PEGA TODOS OS CLIENTES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CADASTRAR NOVO CLIENTE",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar cliente",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "Atualizar cliente",
+					"host": [
+						"Atualizar cliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETA CLIENTE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/cliente/1001",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cliente",
+						"1001"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
